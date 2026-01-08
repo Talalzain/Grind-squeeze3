@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grind&squeeze</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">𝓖𝓻𝓲𝓷𝓭<span>&𝓢𝓺𝓾𝓮𝓮𝔃𝓮</span></div>
+            <ul>
+                <!-- <li><a href="#">Home</a></li> -->
+                <li><a href="#"><button class="btn-main1" style="background-color: orange;">customizable-Menu</button></a></li>
+                <!-- <li><a href="#">Our Story</a></li> -->
+                <!-- <li><a href="#" class="btn-nav">Order Now</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <div id="logo"><img src="logo-removebg-preview.png" height="160px" width="160px" hialt="Description of the image">
+            </div>     
+            <h1>Nature’s Goodness in <br><span>Every Sip.</span></h1>
+            <p>100% Organic, Cold-Pressed, and delivered to your doorstep.</p>
+            <button class="btn-main" >View Top Menu</button>
+        </div>
+    </section>
+    <div style="height: 50px; padding-top: 50px;">
+        <h2 class="custumize-menu">--- Our custumizable Menu ---</h2>
+      </div>
+<div class="phone-container" style="margin-top: 50px;">
+    <h2 style="text-align: center;">Select a base drink item</h2>
+    <div class="cup-container" id="cup">
+        <div id="layer-Carrot" class="juice-layer" style="background: #ed9121;"></div>
+        <div id="layer-Orange" class="juice-layer" style="background: #ffa500;"></div>
+        <div id="layer-SweetLime" class="juice-layer" style="background: #f4fa9c;"></div>
+        <div id="layer-Papaya" class="juice-layer" style="background: #ffb833;"></div>
+        <div id="layer-Apple" class="juice-layer" style="background: #ff0800;"></div>
+        <div id="layer-Kiwi" class="juice-layer" style="background: #8ee53f;"></div>
+        <div id="layer-Banana" class="juice-layer" style="background: #ffe135;"></div>
+        <div id="layer-Beetroot" class="juice-layer" style="background: #8b002d;"></div>
+    </div>
+    
+    <!-- <div class="price-tag">Total: Rs <span id="total">0</span></div> -->
+    
+    <div class="controls">
+        <button class="fruit-btn" onclick="toggleJuice('Carrot')"><span>🥕</span> Carrot</button>
+        <button class="fruit-btn" onclick="toggleJuice('Orange')"><span>🍊</span> Orange</button>
+        <button class="fruit-btn" onclick="toggleJuice('SweetLime')"><span>🍋</span> SweetLime</button>
+        <button class="fruit-btn" onclick="toggleJuice('Papaya')"><span>🍈</span> Papaya</button>
+    </div>
+    
+   <div id="additional" style="margin-left: 50px;">
+
+        <h1>Add Additional Items</h1>
+   </div>
+
+
+<div class="controls">
+    <button class="fruit-btn" onclick="toggleJuice('Apple')"><span>🍎</span> Apple</button>
+    <button class="fruit-btn" onclick="toggleJuice('Kiwi')"><span>🥝</span> Kiwi</button>
+    <button class="fruit-btn" onclick="toggleJuice('Banana')"><span>🍌</span> Banana</button>
+    <button class="fruit-btn" onclick="toggleJuice('Beetroot')"><span>🍷</span> Beetroot</button>
+</div>
+    <p style="text-align: center; color: #888; font-size: 12px;">Base price 80 Rs </p>
+    
+    <button class="checkout-btn" onclick="checkout()">Next</button>
+</div>
+<div style="height: 50px; padding-top: 50px;">
+    <h2 class="menu-section">--- Our Top Menu Starts Here ---</h2>
+  </div>
+<div class="grid">
+    <div class="card" style=" background-image: url(image.png);">
+       <h3 style="color:whitesmoke ; width: 300px;margin-top: 0%;
+       margin-left: 10px; font-size: 32px;">𝓒𝓵𝓪𝓼𝓼𝓲𝓬 𝓞𝓻𝓪𝓷𝓰𝓮 </h3>
+        <button style="margin-top: 260px; margin-left:50px;background-color: transparent; 
+         transition: filter 0.3s ease; border-color: white;
+        height: 50px;width: 200px;border-radius: 50px;">Place order</button>
+    </div>
+    <div class="card" style=" background-image: url(image1.png);">
+        <h3 style="color:whitesmoke ; width: 350px;margin-top: 0%;
+        margin-left: 5px; font-size: 32px;">𝒞𝒾𝓉𝓇𝓊𝓈 𝒦𝒾𝒸𝓀𝓈𝓉𝒶𝓇𝓉</h3>
+         <button style="margin-top: 260px; margin-left:50px;background-color: transparent; 
+          transition: filter 0.3s ease; border-color: white;
+         height: 50px;width: 200px;border-radius: 50px;">Place order</button>
+    </div>
+    <div class="card" style=" background-image: url(image2.png);">
+        <h3 style="color:whitesmoke ; width: 300px;margin-top: 0%;
+        margin-left: 50px; font-size: 32px;">𝒪𝒶𝓈𝒾𝓈 𝐵𝓁𝑒𝓃𝒹 </h3>
+         <button style="margin-top: 260px; margin-left:50px;background-color: transparent; 
+          transition: filter 0.3s ease; border-color: white;
+         height: 50px;width: 200px;border-radius: 50px;">Place order</button>
+    </div>
+</div>
+</section>
+<footer class="site-footer">
+    <div class="footer-container">
+      
+      <div class="footer-brand">
+        <h2 class="logo">𝓖𝓻𝓲𝓷𝓭&𝓢𝓺𝓾𝓮𝓮𝔃𝓮<span>.</span></h2>
+        <p>Freshness You Can Taste, Energy You Can Feel.</p>
+        <p>Pure Fruit. No Secrets</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/share/1BUdj6S79q/">FB</a>
+          <a href="https://www.instagram.com/sque.ezefruit?utm_source=qr&igsh=OWh0dnUzZDltdWg1">IG</a>
+           </div>
+      </div>
+  
+      <div class="footer-links">
+        <div class="footer-section">
+          <button class="accordion-header">Company</button>
+          <ul class="accordion-content">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-section">
+          <button class="accordion-header">Support</button>
+          <ul class="accordion-content">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Safety</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+  
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 𝓖𝓻𝓲𝓷𝓭&𝓢𝓺𝓾𝓮𝓮𝔃𝓮. All rights reserved.</p>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
